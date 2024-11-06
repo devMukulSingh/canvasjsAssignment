@@ -7,28 +7,30 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
 }
 
 .inner-div {
-  width: 80%;
-  height: 85vh;
+  width: 80vw;
+  height: 100%;
   /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
 }
 
 .canvasElement {
   border: 2px solid black;
   border-radius: 5px;
-
 }
 
 .btn {
-  align-self: flex-end;
   padding:10px 20px;
   border-radius:5px;
   cursor: pointer;
-  margin-left:auto
+  width: fit-content;
+  margin-left:auto;
+  margin-right:40px
 }
 
 #circleCanvas{
